@@ -1,0 +1,73 @@
+
+/*style des conteneurs et des différents éléments (item)*/
+
+
+.choice-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.choice-grid div{
+    width: 32.5%;
+    height: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    padding-bottom: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    border: 1px solid rgb(221, 219, 219);
+    background-color: rgb(235,232,232);
+}
+.choice-grid div img{
+    width: 100%;
+    display: flex;
+}
+
+
+
+
+ /*style de l'image checkbox*/
+ .check{
+    background-color: #ccf3ff!
+important;}
+.uncheck{
+    opacity: 0.6;
+}
+ /*contenur du résultat*/
+.result h2 {
+    margin-bottom: 18px;
+    margin-top: 58px;
+    text-align: left;
+    text-decoration-style: none;
+}
+.result p {
+    margin-top: 18px;
+    margin-bottom: 18px
+}
+/*ajouter mise en forme pour le bouton  */
+.result button {
+    display:block;
+    width:700px;
+    line-height:50px;
+    text-align:center;
+    margin: auto;
+    margin-bottom: 38px;
+    margin-top: 18px;
+    background-color:#cecece;
+    box-shadow: #cecece;
+    color: #000;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+/* mise en forme lors du survol du bouton  */
+.result button:hover{
+    background-color: #e0e0e0;
+}

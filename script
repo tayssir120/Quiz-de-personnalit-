@@ -1,0 +1,15 @@
+// ajouter le JavaScript nécessaire.
+function OnClick()
+{
+    console.log('clicked')
+}
+const button = document0qureySelector('button');
+button.aadEventListener('click', OnClick);
+
+// Vous ouvez accéder à RESULTS_MAP à partir de  "constants.js" dans ce fichier puisque
+// "constants.js" est inclu avant  "script.js" dans index.html.
+
+
+
+
+
